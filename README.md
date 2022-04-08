@@ -1,6 +1,6 @@
 <h1 align="center">Build-a-Personal-Portfolio-Webpage</h1>
 <p>FreeCodeCamp.com Responsive Web Design Certification Project - "Build a Personal Portfolio Webpage"</p>
-https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page
+https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage
 <hr>
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
