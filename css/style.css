@@ -146,7 +146,7 @@ html {
     margin-top: 5rem;
 }
 
-#title3 {
+#CTA {
     color: var(--light-color);
     font-size: 3.5rem;
     font-weight: bolder;
@@ -253,6 +253,29 @@ html {
 
 .description-project {
     text-align: center;
+}
+
+#social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    transition: transform 0.5s;
+    margin: 0.5rem;
+}
+
+.social:hover {
+    transform: translateY(-8px);
+}
+
+#freeCodeLink {
+    color: var(--light-color);
+}
+
+#freeCodeLink:hover {
+    color: var(--dark-color);
 }
 
 #contact {
