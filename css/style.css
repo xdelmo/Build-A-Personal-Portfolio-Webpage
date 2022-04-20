@@ -292,17 +292,33 @@ html {
 #footer {
     background-color: #3772ff;
     display: flex;
-    justify-content: space-around;
+    padding: 2rem;
+    justify-items: center;
+    justify-content: space-between;
 }
 
-@media (min-width: 600px) {
+#footer>li {
+    list-style-type: none;
+    display: flex;
+}
+
+@media (max-width: 600px) {
     #footer {
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer>li {
+        padding: 0.5rem;
     }
 }
 
 p {
     padding: 1rem;
+}
+
+#footer-p {
+    padding: 0;
 }
 
 .float {
@@ -316,6 +332,11 @@ p {
     border-radius: 50px;
     text-align: center;
     box-shadow: 2px 2px 3px #999;
+    transition: transform 0.5s;
+}
+
+.float:hover {
+    transform: translateY(-8px);
 }
 
 .my-float {
