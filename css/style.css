@@ -112,6 +112,12 @@ html {
     text-transform: uppercase;
     color: var(--light-color);
     text-decoration: none;
+    cursor: pointer;
+}
+
+#contact-btn:hover {
+    color: var(--dark-color);
+    background-color: var(--light-color);
 }
 
 #welcome-section {
@@ -209,9 +215,6 @@ html {
     flex-wrap: wrap;
 }
 
-
-/* CSS */
-
 .button {
     background: var(--primary-color);
     border-radius: 999px;
@@ -257,6 +260,43 @@ html {
     text-align: center;
 }
 
+
+/* MAPPA E FORM */
+
+#map-form {
+    display: flex;
+    justify-items: center;
+    margin: 2rem;
+}
+
+@media (max-width: 600px) {
+    #map-form {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+    }
+    form {
+        padding-top: 2rem;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+form>input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
 #social-links {
     display: flex;
     align-items: center;
@@ -293,13 +333,18 @@ html {
     background-color: #3772ff;
     display: flex;
     padding: 2rem;
-    justify-items: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
 #footer>li {
     list-style-type: none;
     display: flex;
+    margin: auto;
+}
+
+#FreeCodeCamp-Solutions {
+    padding: 0;
 }
 
 @media (max-width: 600px) {

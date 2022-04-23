@@ -106,6 +106,39 @@
         <div>
             <h2 id="CTA">Let's work together...</h2>
             <p>Need help with your project? Just ask!</p>
+
+
+            <div id="map-form">
+                <div style="max-width:100%;overflow:hidden;color:red;width:300px;height:300px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=latina+italia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemap-html" href="https://www.embed-map.com"
+                        id="enable-mapdata">https://www.embed-map.com</a>
+                    <style>
+                        #embedmap-canvas img.text-marker {
+                            max-width: none!important;
+                            background: none!important;
+                        }
+                        
+                        img {
+                            max-width: none
+                        }
+                    </style>
+                </div>
+
+                <div>
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                        <div>
+                            <textarea id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button id="contact-btn" type="button" class="button link-button">Contact Me</button>
+                </div>
+            </div>
+
+
             <div id="social-links">
                 <a class="social" target="_blank" href="https://www.github.com/xdelmo"><img id="github-logo" src="images/GitHub-Mark-Light-120px-plus.png" width="32px" alt="logo_github" /></a>
                 <a class="social" target="_blank" href="https://www.linkedin.com/in/emanueledelmonte/"><img id="linkedin-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/900px-LinkedIn_logo_initials.png" width="32px" alt="logo_linkedin" /></a>
@@ -115,16 +148,17 @@
 
     <div id="footer">
         <li>&copy; Copyright Free</li>
-        <li>
-            <p id="footer-p">
-                I created this site created for<a id="freeCodeLink" href="https://github.com/FreeCodeCamp-Solutions/">
-            FreeCodeCamp-Solutions</a
-          >
-        </p>
-      </li>
-      <li>Made by Emanuele Del Monte</li>
+        <li id="footer-p">
+            <p id="FreeCodeCamp-Solutions">I created this site for
+
+                <a id="freeCodeLink" href="https://github.com/FreeCodeCamp-Solutions/">
+            FreeCodeCamp Solutions</a></p>
+        </li>
+
+        <li>Made by Emanuele Del Monte</li>
     </div>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  </body>
+</body>
+
 </html>
