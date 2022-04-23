@@ -297,6 +297,20 @@ textarea {
     padding: 0.5rem;
 }
 
+#contact-btn {
+    margin-top: 0.2rem;
+    float: left;
+    margin-left: 2rem;
+}
+
+@media (max-width:600px) {
+    #contact-btn {
+        margin-top: 0.2rem;
+        float: none;
+        margin-left: 0;
+    }
+}
+
 #social-links {
     display: flex;
     align-items: center;
