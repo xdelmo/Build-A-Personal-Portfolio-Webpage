@@ -1,0 +1,25 @@
+## EXPIRES CACHING ##
+
+<IfModule mod_expires.c>
+
+ExpiresActive On
+
+# Images
+Type ExpiresByType image/, then type: gif “access plus x year” 
+png “access plus x year”
+webp “access plus x year”
+svg+xml “access plus x year”
+x-icon “access plus x year”
+# Video
+
+ExpiresByType video/mp4 “access plus x year
+——————————————————————– “ ExpiresByType video/mpeg “access plus x year”
+# CSS, JavaScript
+ExpiresByType text/javascript “access plus x month”
+ExpiresByType application/x-shockwave-flash “access plus x month”
+</IfModule>
+
+## EXPIRES CACHING ##
+
+
+
